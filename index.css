@@ -1,0 +1,123 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+*{
+    box-sizing:border-box;
+    border:100px solid black;
+    max-width:100%;
+}
+html{
+    font-size:62.5%;
+
+}
+
+    
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size:6rem;
+    text-align: center;
+    
+}
+.links{
+display:flex;
+font-family:'Kufam', cursive;
+font-size:2.5rem;
+justify-content: space-around;
+margin-left:25%;
+margin-right:25%;
+border-radius:30px;
+padding:1% 0;
+}
+body{
+    background-color:palegreen;
+}
+.home{
+    background-color:orange;
+    border-radius:10px;
+    padding:5%;
+
+}
+.about{
+    background-color:skyblue;
+    border-radius:10px;
+    padding:5%;
+}
+.contact{
+    background-color:pink;
+    border-radius:10px;
+    padding:5%;
+}
+.projects{
+    background-color:yellow;
+    border-radius:10px;
+    padding:5%;
+}
+h2{
+    font-family:'Kufam', cursive;
+    font-size: 3.5rem;
+    text-align:center;
+    margin-bottom:20px;
+}
+header p{
+    font-family:'Kufam', cursive;
+    font-size:1.5rem;
+    text-align:center;
+}
+.firstpic{
+    display:flex;
+    background-image:url(https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    height:80vh;
+    background-size:cover;
+    background-repeat:no-repeat;
+    width:100%;
+    margin-bottom: 20px;
+    margin-top:60px;
+}
+.picsandtext{
+    display:flex;
+    justify-content:space-between;
+}
+.mountains{
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+}
+.mountains img{
+    width:22%;
+    height:200px;
+}
+footer{
+    background-color:palegoldenrod;
+    text-align:center;
+    padding:5%;
+}
+.text{
+    font-family:'Kufam', cursive;
+    font-size:1.8rem;
+    text-align:center;
+}
+.me{
+    background-color:pink;
+    border-radius:10px;
+    padding:2.5%;
+    font-size:2.5rem;
+    font-family:'Kufam', cursive;
+}
+
