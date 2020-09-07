@@ -13,37 +13,38 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border: ;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
 *{
     box-sizing:border-box;
-    border:100px solid black;
+    border:1px solid black;
     max-width:100%;
 }
 html{
     font-size:62.5%;
-
+    box-sizing:border-box;
+    border:10px solid black;
+    max-width:100%;
 }
 
-    
+
 h1{
     font-family: 'Chelsea Market', cursive;
     font-size:6rem;
-    text-align: center;
-    
+    text-align: center;  
 }
 .links{
-display:flex;
-font-family:'Kufam', cursive;
-font-size:2.5rem;
-justify-content: space-around;
-margin-left:25%;
-margin-right:25%;
-border-radius:30px;
-padding:1% 0;
+    display:flex;
+    font-family:'Kufam', cursive;
+    font-size:2.5rem;
+    justify-content: space-around;
+    margin-left:25%;
+    margin-right:25%;
+    border-radius:30px;
+    padding:1% 0;
 }
 body{
     background-color:palegreen;
@@ -96,7 +97,7 @@ header p{
 }
 .mountains{
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
     width:100%;
 }
 .mountains img{
@@ -110,8 +111,14 @@ footer{
 }
 .text{
     font-family:'Kufam', cursive;
-    font-size:1.8rem;
+    font-size:3rem;
     text-align:center;
+  ;
+}
+.text p{
+    display:flex;
+    padding-bottom:20%;
+    align-items: stretch;
 }
 .me{
     background-color:pink;
@@ -120,4 +127,14 @@ footer{
     font-size:2.5rem;
     font-family:'Kufam', cursive;
 }
-
+@media (max-width: 800px){
+   body{
+       background-color:red;
+   }
+      
+}
+@media (max-width:500px){
+    body{
+        background-color:yellow;
+    }
+}
